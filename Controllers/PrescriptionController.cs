@@ -11,10 +11,10 @@ namespace EfExample.Controllers;
 
 [Route("api/")]
 [ApiController]
-public class TripController : ControllerBase
+public class PrescriptionController : ControllerBase
 {
     private readonly AppDbContext _context;
-    public TripController(AppDbContext context)
+    public PrescriptionController(AppDbContext context)
     {
         _context = context;
     }
